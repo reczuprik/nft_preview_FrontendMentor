@@ -288,8 +288,8 @@ select {
 /* ------------------- */
 
 .card {
-    width: 25rem;
-    padding: 2em;
+    width: 15rem;
+    padding: 1em;
     border-radius: 1em;
 }
 
@@ -340,5 +340,14 @@ select {
 }
 
 .inlinepadding {
-    padding-inline: 2rem;
+    padding-inline: .5rem;
+}
+
+@media (min-width:30rem) {
+    .card {
+        width: 25rem;
+    }
+    .inlinepadding {
+        padding-inline: 2rem;
+    }
 }
